@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Petra"/>
+        <attribute name="authors" value="Msi GF 63"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-06 10:45:30 AM"/>
+        <attribute name="created" value="TXNpIEdGIDYzO01TSTsyMDI0LTA5LTA1OzA0OjAzOjAxIFBNOzIxMTQ="/>
+        <attribute name="edited" value="TXNpIEdGIDYzO01TSTsyMDI0LTA5LTA2OzEwOjQ1OjMwIEFNOzM7MjIxNQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ISBN" type="String" array="False" size=""/>
+            <declare name="JUDUL" type="String" array="False" size=""/>
+            <declare name="PENULIS" type="String" array="False" size=""/>
+            <declare name="TAHUN" type="Integer" array="False" size=""/>
+            <declare name="PENERBIT" type="String" array="False" size=""/>
+            <declare name="FORMATBUKU" type="String" array="False" size=""/>
+            <declare name="HARGA" type="Real" array="False" size=""/>
+            <declare name="MARGIN" type="Real" array="False" size=""/>
+            <declare name="STOK" type="Integer" array="False" size=""/>
+            <declare name="RATING" type="Real" array="False" size=""/>
+            <input variable="ISBN"/>
+            <input variable="JUDUL"/>
+            <input variable="PENULIS"/>
+            <input variable="TAHUN"/>
+            <input variable="PENERBIT"/>
+            <input variable="FORMATBUKU"/>
+            <input variable="HARGA"/>
+            <input variable="MARGIN"/>
+            <input variable="STOK"/>
+            <input variable="RATING"/>
+            <output expression="ISBN&amp;&quot;|&quot;&amp;JUDUL&amp;&quot;|&quot;&amp;PENULIS&amp;&quot;|&quot;&amp;TAHUN&amp;&quot;|&quot;&amp;PENERBIT&amp;&quot;|&quot;&amp;FORMATBUKU&amp;&quot;|&quot;&amp;HARGA&amp;&quot;|&quot;&amp;MARGIN&amp;&quot;|&quot;&amp;STOK&amp;&quot;|&quot;&amp;RATING" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
