@@ -21,14 +21,13 @@ public class T01 {
         iSBN = input.nextLine();
         jUDUL = input.nextLine();
         pENULIS = input.nextLine();
-        tAHUN = input.nextInt();
+        tAHUN = Integer.parseInt(input.nextLine());
         pENERBIT = input.nextLine();
         fORMATBUKU = input.nextLine();
-        hARGA = input.nextDouble();
-        mARGIN = input.nextDouble();
-        sTOK = input.nextInt();
-        rATING = input.nextDouble();
+        hARGA = Double.parseDouble(input.nextLine());
+        mARGIN = Double.parseDouble(input.nextLine());
+        sTOK = Integer.parseInt(input.nextLine());
+        rATING = Double.parseDouble(input.nextLine());
         System.out.println(iSBN + "|" + jUDUL + "|" + pENULIS + "|" + tAHUN + "|" + pENERBIT + "|" + fORMATBUKU + "|" + hARGA + "|" + mARGIN + "|" + sTOK + "|" + rATING);
     }
 }
-
